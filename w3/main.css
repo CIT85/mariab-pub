@@ -7,4 +7,15 @@ body {
     color: whitesmoke;
 }
 
+a {
+    color: rgb(22, 247, 108);
+}
 
+a:visited {
+    color: blueviolet;
+}
+
+a:hover,
+a:active {
+    color: antiquewhite;
+}
