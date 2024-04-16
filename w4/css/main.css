@@ -1,23 +1,23 @@
 html{
     font-size: 24px
 }
-
+/* body CSS specificity 0,0,1,1 edits are only applied content in the body tag*/
 body {
-    background-color: #4181ef;
+    background-color: #0c0a3e;
     color: whitesmoke;
 }
 
 a {
-    color: rgb(22, 247, 108);
+    color: #F3C677;
 }
 
 a:visited {
-    color: blueviolet;
+    color: #B33F62;
 }
 
 a:hover,
 a:active {
-    color: antiquewhite;
+    color: #f9564f;
 }
 
 table   {
@@ -26,9 +26,12 @@ table   {
     border-color: rgb(219, 131, 64)
 }
 
+
 th, td {
     background-color: rgb(226, 43, 128);
     padding: 8px;
     border: solid; border-color: rgb(255, 213, 0);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
