@@ -41,6 +41,53 @@
                 Chat reminds me of a different website I heard about in high school. We could upload a file and it would just rewrite it using different words inplace of the original, which would then would result in a paper that didn't make sense. I was experimenting with Chat and noticed that is does just spit out generic answers and sometimes in the mix there will be some sections that don't make sense. It is a good way to get ideas out and a lot at once. It's kind of like when you write down any thought to generate ideas. It also helps to have countless of different answers to the same question.
             </p>
         </section>
+
+        <hr>
+        <form action="https://httpbin.org/get">
+        <fieldset>
+            <legend>Tell Me about Yourself</legend>
+            <p>s
+                <label for="FirstName">First Name:</label>
+                <input type="text" name="FirstName" id="FirstName" autocapitalize="on" required autofocus>
+            </p>
+            <p>
+                <label for="BirthYear">Birth Year</label>
+                <input type="number" name="birthyear" id="BirthYear" min="1970" max="2002" step="1" value="1970">
+            </p>
+                    <h3>What is your favorite Food?</h3>
+                    <p>
+                    <input type="radio" name="food" id="pizza" value="pizza">
+                    <label for="pizza">Pizza</label>
+                    <p>
+                        <input type="radio" name="food" id="tacos" value="tacos">
+                        <label for="tacos">Tacos</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="food" id="quesadilla" value="quesadilla">
+                        <label for="quesadilla">Quesadilla</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="food" id="chickenwings" value="chickenwings">
+                        <label for="chickenwings">Chicken Wings</label>
+                    </p>
+                    <br>
+                    <button type="submit" formaction="https://httpbin.org " formmethod="post">Post</button>
+        
+        </fieldset>
+    </form>
+
+<fieldset>
+    <legend>Contact Me</legend>
+     <p>
+        <label for="Email">Email</label>
+        <input type="text" name="Email" id="Email" placeholder="@yahoo.com">
+    </p>
+    <p>
+        <textarea name="Content" id="Content" cols="30" rows="10" placeholder="Max 600 Characters"></textarea>
+    </p>
+    <br>
+    <button type="Submit">Submit</button>
+</fieldset>
     </main>
 
     <footer>
