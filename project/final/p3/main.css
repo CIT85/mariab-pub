@@ -1,0 +1,94 @@
+/* Styling Headings */
+
+h1  {
+    font-size: 50px;
+}
+
+h2  {
+    font-size: 30px;
+    color: rgb(23, 105, 105);
+    text-decoration: underline;
+}
+
+h3  {
+font-size: 24px;
+}
+
+h4  {
+    font-size: 20px;
+
+}
+
+
+/* Adding Colors, styling links*/
+body    {
+    background-color: #EBEBD3;
+    background-image: radial-gradient(#EBEBD3, #3078c5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+a   {
+    color: #F4D35E;
+}
+
+a:visited {
+    color: #032040;
+}
+
+a:hover {
+    pointer-events: painted;
+    color: #DA4167;
+}
+
+/* Styling Tables, with classes will override the the beginning styles*/
+table   {
+    border-collapse: collapse;
+    width: 100%; border-style: solid;
+    border-color: #F78764;
+}
+
+th, td  {
+background-color: #F4D35E;
+padding: 10px;
+border: solid; border-color: #F78764;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.th {
+font-size: 24px;
+}
+
+.td {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    float: left;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Flexbox edits */
+.nav-menu, h2, h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* .h2, h1 {
+    display: flex;
+    justify-content: center;
+}
+} */
+
+@media screen and (min-width: 1025px) {
+    main {
+        background-color: #DA4167;
+      justify-content: center;
+      flex-flow: row wrap;
+      padding: 1rem;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
